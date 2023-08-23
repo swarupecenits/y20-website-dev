@@ -391,11 +391,14 @@ footer .part1 .right .social-media-cont img {
     top: -6.2rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .events .surrounder {
     font-size: 1vw;
     margin-left: auto;
     margin-right: auto;
+  }
+  .sponsors-img {
+    align-items: center;
   }
   .sponsors .surrounder img {
     width: 80vw;
