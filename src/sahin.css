@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.theme {
+  /* margin-top: 20px; */
+  display: flex;
+  margin-inline: auto;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.theme #left-end {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  width: 37rem;
+  height: 35rem;
+}
+.theme #right-end {
+  position: absolute;
+  width: 37rem;
+  height: 35rem;
+  left: 80%;
+}
+
+.flower {
+  width: 37rem;
+  height: 35rem;
+  opacity: 50%;
+}

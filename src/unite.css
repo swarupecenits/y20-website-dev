@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.unite {
+  background-image: url("./flower-removebg-preview.png"),
+    url("./flower-removebg-preview-left.png");
+  background-position: left 110%, right 110%;
+  background-repeat: no-repeat, no-repeat;
+}
+.primary-unite-heading {
+  margin-top: 2em;
+  text-align: center;
+  color: #358717;
+  font-family: Plus Jakarta Sans;
+  font-size: 2.812rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.25px;
+}
+.unite img {
+  /* margin-left: 11.5rem; */
+  display: flex;
+  margin: 0 auto;
+  width: 90vw;
+}
+.secondary-unite-heading {
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 2.812rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 4.5px;
+  width: 50.562rem;
+  margin: 0 auto;
+  margin-top: 6rem;
+}
+.unite-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+  text-align: center;
+  border-radius: 0.69rem;
+  margin-bottom: 8rem;
+  width: 98vw;
+  height: 35rem;
+  margin-top: -4rem;
+  flex-wrap: wrap;
+}
+.unite-secondary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid red;
+  width: 25.125rem;
+  height: 16.56rem;
+  border-radius: 0.69rem;
+  border: 1px solid #fff;
+  background-color: #fff;
+  box-shadow: 0px 4px 18px 4px rgba(0, 0, 0, 0.15);
+}
+.unite-container-heading {
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  background: linear-gradient(90deg, #f27b13 46.15%, #358717 63.85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 20.37rem;
+  margin-bottom: 1rem;
+}
+.unite-container p {
+  width: 21.375rem;
+  height: 8rem;
+  line-height: 1.875rem;
+  color: #000;
+  text-align: center;
+  font-family: Sans Serif Collection;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+  letter-spacing: 1.6px;
+}
+@media screen and (min-width: 857px) and (max-width: 1301px) {
+  .unite-container {
+    margin-top: 5rem;
+  }
+  #container-3 {
+    margin-top: 2rem;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 857px) {
+  .unite-container {
+    margin-top: 5rem;
+    height: 40rem;
+  }
+  #container-2 {
+    margin-top: 1rem;
+  }
+  #container-3 {
+    margin-top: 1rem;
+  }
+  .primary-unite-heading {
+    font-size: 2.3rem;
+  }
+  .secondary-unite-heading {
+    font-size: 2rem;
+    text-align: center;
+    width: 30rem;
+  }
+  .unite-secondary-container {
+    width: 30rem;
+    height: 15rem;
+  }
+  .unite-container p {
+    width: 25rem;
+  }
+  .unite {
+    background-position: left 100%, right 100%;
+    background-size: 20rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .unite-container {
+    margin-top: 5rem;
+    height: 42rem;
+    margin-bottom: 15rem;
+  }
+  .unite {
+    background-position: left 100%, right 100%;
+    background-size: 16rem;
+  }
+  #container-2 {
+    margin-top: 2rem;
+  }
+  #container-3 {
+    margin-top: 2rem;
+  }
+  .unite-secondary-container {
+    width: 20rem;
+  }
+  .unite-container p {
+    width: 14rem;
+    line-height: 1.325rem;
+    font-size: 1.1rem;
+  }
+  .secondary-unite-heading {
+    width: 25rem;
+    font-size: 2rem;
+  }
+  .primary-unite-heading {
+    font-size: 2rem;
+  }
+}

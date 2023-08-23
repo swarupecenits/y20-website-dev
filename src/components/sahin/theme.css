@@ -1,0 +1,103 @@
+.theme-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 35rem;
+  gap: 6rem;
+  flex-wrap: wrap;
+  /* background-image: url("./theme-flower-left.jpeg"),
+    url("./theme-flower-right.jpg"); */
+  background-position: left, right;
+  background-repeat: no-repeat;
+  background-size: 20rem;
+}
+.theme-subcontainer-1 {
+  width: 26rem;
+}
+.theme-subcontainer-1 img {
+  display: flex;
+  margin: 0 auto;
+}
+#theme-underline {
+  margin-bottom: 2rem;
+}
+.theme-subcontainer-2 {
+  width: 40rem;
+  text-align: center;
+  border-radius: 11px;
+  border: 4px solid #fff;
+  background: #fff;
+  box-shadow: 0px 0px 39px 9px rgba(0, 0, 0, 0.15);
+}
+.theme-subcontainer-2 p {
+  width: 90%;
+  padding: 2rem;
+  text-align: center;
+}
+.theme-heading {
+  color: #358717;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.25px;
+}
+.theme-paragraph {
+  color: #f27b13;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 45px */
+  letter-spacing: 2.25px;
+}
+
+@media screen and (min-width: 857px) and (max-width: 1160px) {
+  .theme-subcontainer-2 {
+    margin-top: -4rem;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 857px) {
+  .theme-container {
+    height: 50rem;
+    flex-direction: column;
+    background-size: 15rem;
+  }
+  .theme-subcontainer-2 {
+    width: 20rem;
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3rem;
+  }
+  .theme-subcontainer-2 p {
+    text-align: center;
+    width: 90%;
+    padding: 0rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .theme-container {
+    background-size: 12rem;
+    height: 50rem;
+  }
+  .theme-subcontainer-2 {
+    width: 20rem;
+    height: 24rem;
+    margin-top: -7rem;
+  }
+  .theme-subcontainer-2 {
+    width: 20rem;
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
