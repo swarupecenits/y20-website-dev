@@ -83,7 +83,7 @@ nav .links #brochure {
   z-index: 3;
   top: -2rem;
   width: 50vw;
-  visibility: visible;
+  visibility: hidden;
 }
 
 #mobile-nav #mobile-links {
@@ -374,16 +374,28 @@ footer .part1 .right .social-media-cont img {
   width: 3.5rem;
   height: 2.625rem;
 }
-@media screen and (max-width: 480px) {
-  .events .surrounder {
-    font-size: 1vw;
-    margin-left: auto;
-    margin-right: auto;
+@media screen and (max-width: 860px) {
+  nav .links {
+    visibility: hidden;
+  }
+  nav #nav-logo {
+    height: 4rem;
+    width: 8rem;
+  }
+  nav .links #brochure {
+    background-color: #ffffff;
   }
   #hamburger {
     visibility: visible;
     position: absolute;
     top: -6.2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .events .surrounder {
+    font-size: 1vw;
+    margin-left: auto;
+    margin-right: auto;
   }
   .sponsors .surrounder img {
     width: 80vw;
