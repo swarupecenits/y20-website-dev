@@ -110,3 +110,15 @@
     margin: 0 auto;
   }
 }
+@media screen and (max-width: 450px) {
+  .theme-container {
+    positive: relative;
+    top: 60rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .theme-container {
+    position: relative;
+    top: 60rem;
+  }
+}

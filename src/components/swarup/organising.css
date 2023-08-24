@@ -33,6 +33,15 @@
   border: 0px solid transparent;
   border-radius: 50vw;
 }
+@media screen and (max-width: 820px) {
+  .Organising {
+    position: relative;
+    top: 35rem;
+  }
+  .Organising .surrounder img {
+    width: 80vw;
+  }
+}
 @media screen and (max-width: 600px) {
   .Organising {
     position: relative;
@@ -54,5 +63,17 @@
     height: 50vw;
     border: 0px solid transparent;
     border-radius: 50vw;
+  }
+}
+@media screen and (max-width: 450px) {
+  .Organising {
+    position: relative;
+    top: 55rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .Organising {
+    position: relative;
+    top: 70rem;
   }
 }

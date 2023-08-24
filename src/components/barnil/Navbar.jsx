@@ -69,13 +69,13 @@ function NavBar() {
           <Link to="sponsors" duration={500} smooth={true}>
             SPONSORS
           </Link>
-          <button
+          <Link1
             id="brochure-mobile"
             target="_blank"
             to="https://drive.google.com/file/d/1fo8PJ-pyF1_kCsq1COxWNjLXTeQBEu7T/view?usp=drivesdk"
           >
             BROCHURE
-          </button>
+          </Link1>
         </div>
       </div>
     </>
