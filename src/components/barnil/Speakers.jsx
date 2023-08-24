@@ -1,17 +1,40 @@
 import "./Nav_footer_events_sponsors_speakers.css";
 import Surround from "./surround.svg";
+import guestRajkumarRanjan from "./speakers-img/rajkumarRanjan.svg";
+import guesttemjenImna from "./speakers-img/temjenImna.svg";
+import guestashokPuranik from "./speakers-img/ashokPuranik.svg";
+import guestrajdeepRoy from "./speakers-img/rajdeepRoy.svg";
 function Speakers() {
   const primary = [
-    { name: "Speaker 1", desgn: "designation", photo: "photo1" },
-    { name: "Speaker 2", desgn: "designation", photo: "photo2" },
+    {
+      name: "DR. RAJKUMAR RANJAN SINGH",
+      desgn:
+        "Minister of State for External Affairs and Education, Govt of India",
+      photo: guestRajkumarRanjan,
+    },
+    {
+      name: "SHRI TEMJEN IMNA ALONG",
+      desgn: "Minister of Higher and Technical Education, Govt of Nagaland",
+      photo: guesttemjenImna,
+    },
+    {
+      name: "PROFF. ASHOK PURANIK",
+      desgn: "Executive Director, AIIMS Guwahati",
+      photo: guestashokPuranik,
+    },
+    {
+      name: "DR. RAJDEEP ROY",
+      desgn: "Hon'ble MP of Silchar",
+      photo: guestrajdeepRoy,
+    },
   ];
-  const secondary = [
-    { name: "Speaker 1", desgn: "designation", photo: "photo1" },
-    { name: "Speaker 2", desgn: "designation", photo: "photo2" },
-    { name: "Speaker 3", desgn: "designation", photo: "photo3" },
-    { name: "Speaker 4", desgn: "designation", photo: "photo4" },
-    { name: "Speaker 5", desgn: "designation", photo: "photo5" },
-  ];
+  // const secondary = [
+  //   { name: "Speaker 1", desgn: "designation", photo: "photo1" },
+  //   { name: "Speaker 2", desgn: "designation", photo: "photo2" },
+  //   { name: "Speaker 3", desgn: "designation", photo: "photo3" },
+  //   { name: "Speaker 4", desgn: "designation", photo: "photo4" },
+  //   { name: "Speaker 5", desgn: "designation", photo: "photo5" },
+  // ];
   const tertiary = [
     { name: "Speaker 1", desgn: "designation", photo: "photo1" },
     { name: "Speaker 2", desgn: "designation", photo: "photo2" },

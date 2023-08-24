@@ -4,37 +4,33 @@ import { useState, useEffect } from "react";
 import "./carousel.css";
 import chevronLeft from "./chevron-left-solid.svg";
 import chevronRight from "./chevron-right-solid.svg";
+import events_bg from "./sponsors-img/events_bg.png";
 const Carousel = () => {
   const events_info = [
     {
       name: "EVENT 1",
       desc: "DESCRIPTION",
       time: "TIMINGS",
-      background: "#ff0000",
     },
     {
       name: "EVENT 2",
       desc: "DESCRIPTION",
       time: "TIMINGS",
-      background: "#00ff00",
     },
     {
       name: "EVENT 3",
       desc: "DESCRIPTION",
       time: "TIMINGS",
-      background: "#0000ff",
     },
     {
       name: "EVENT 4",
       desc: "DESCRIPTION",
       time: "TIMINGS",
-      background: "#00ffff",
     },
     {
       name: "EVENT 5",
       desc: "DESCRIPTION",
       time: "TIMINGS",
-      background: "#ff00ff",
     },
   ];
   const [currIndex, setcurrIndex] = useState(0);
@@ -57,7 +53,7 @@ const Carousel = () => {
         <button
           className="controller"
           id="left"
-          style={{ zIndex: "2" }}
+          style={{ zIndex: "2", cursor: "pointer" }}
           onClick={handlePrev}
         >
           <img src={chevronLeft} />
@@ -68,17 +64,25 @@ const Carousel = () => {
               className="slide"
               key={index}
               style={{
-                backgroundColor: `${item.background}`,
                 transform: `translateX(${-currIndex * 100}%)`,
               }}
             >
-              <h3>EVENT: {item.name}</h3>
-              <p>{item.desc}</p>
-              <h4>TIMINGS: {item.time}</h4>
+              <div className="black-filter">
+                <div className="green-filter">
+                  <h3>EVENT: {item.name}</h3>
+                  <p>{item.desc}</p>
+                  <h4>TIMINGS: {item.time}</h4>
+                </div>
+              </div>
             </div>
           ))}
         </div>
-        <button className="controller" id="right" onClick={handleNext}>
+        <button
+          style={{ cursor: "pointer" }}
+          className="controller"
+          id="right"
+          onClick={handleNext}
+        >
           <img src={chevronRight} />
         </button>
       </div>

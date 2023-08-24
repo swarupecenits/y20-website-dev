@@ -49,7 +49,7 @@ function NavBar() {
           <Link to="sponsors" duration={500} smooth={true}>
             SPONSORS
           </Link>
-          <button id="brochure" style={{ cursor: "pointer" }}>
+          <button id="brochure-mobile" style={{ cursor: "pointer" }}>
             BROCHURE
           </button>
         </div>
