@@ -58,6 +58,7 @@
   border-radius: 1rem;
   background-color: #979797;
   transition: ease 1000ms;
+  cursor:pointer;
 }
 .carousel .part2 .bubble-active {
   height: 1rem;
@@ -65,6 +66,7 @@
   border: 0px solid transparent;
   border-radius: 1rem;
   background-color: rgb(255, 153, 0);
+  cursor:pointer;
 }
 @media only screen and (max-width: 860px) {
   .carousel {
