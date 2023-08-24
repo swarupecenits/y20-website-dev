@@ -83,19 +83,4 @@
     height: 30rem;
   }
 }
-@media only screen and (max-width: 375px) {
-  .carousel{
-    position:relative;
-    left:0.5rem;
-    width:80%;
-  }
-  .carousel .row{
-    margin: 0 auto;
-    width: 80%;
-    height: 15rem;
-  }
-  .carousel .slide{
-    width:18rem;
-    height:15rem;
-  }
-}
+
