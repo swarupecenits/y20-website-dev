@@ -86,7 +86,7 @@
 @media only screen and (max-width: 375px) {
   .carousel .slide{
     margin: 0 auto;
-    width: 70%;
+    width: 30%;
     height: 30rem;
   }
 }
