@@ -83,3 +83,10 @@
     height: 30rem;
   }
 }
+@media only screen and (max-width: 375px) {
+  .carousel .slide{
+    margin: 0 auto;
+    width: 70%;
+    height: 30rem;
+  }
+}
