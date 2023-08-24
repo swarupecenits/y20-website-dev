@@ -4,7 +4,8 @@ import y20 from "./y20.svg";
 import Fb from "./icon-fb.svg";
 import Twitter from "./icon-twitter.svg";
 import Insta from "./icon-insta.svg";
-import YouTube from "./icon-youtube.svg";
+import Linkedin from "./icon-linkedin.svg";
+import { BrowserRouter, Link } from "react-router-dom";
 function Footer() {
   return (
     <footer>
@@ -16,18 +17,27 @@ function Footer() {
         <div className="right">
           <h1>FOLLOW US</h1>
           <div className="social-media-cont">
-            <a>
+            <Link to="https://twitter.com/ThinkIndiaNITS" target="_blank">
               <img src={Twitter} />
-            </a>
-            <a>
+            </Link>
+            <Link
+              to="https://instagram.com/thinkindianits?igshid=NTc4MTIwNjQ2YQ=="
+              target="_blank"
+            >
               <img src={Insta} />
-            </a>
-            <a>
-              <img src={YouTube} />
-            </a>
-            <a>
+            </Link>
+            <Link
+              to="https://www.linkedin.com/posts/thinkindianits_northeasty20conclave-thinkindianits-thinkindia-activity-7100425089673797632-A2Ru"
+              target="_blank"
+            >
+              <img src={Linkedin} />
+            </Link>
+            <Link
+              to="https://m.facebook.com/ThinkindiaNITS?eav=AfY3mZFbrEzwaEuZO0Bycy_-YPimImbkWE5kUMGkXu9-Oxfh5kWa1d99av5C1mk6acY&paipv=0"
+              target="_blank"
+            >
               <img src={Fb} />
-            </a>
+            </Link>
           </div>
           <h1>CONTACT US</h1>
           <p>
