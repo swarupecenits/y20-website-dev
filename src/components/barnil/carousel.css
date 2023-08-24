@@ -84,7 +84,7 @@
   }
 }
 @media only screen and (max-width: 375px) {
-  .carousel .slide{
+  .carousel .row{
     margin: 0 auto;
     width: 30%;
     height: 30rem;
