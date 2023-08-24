@@ -1,4 +1,6 @@
 .theme-container {
+  position: relative;
+  top: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;

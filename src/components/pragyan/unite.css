@@ -3,6 +3,8 @@
   padding: 0;
 }
 .unite {
+  position: relative;
+  top: 15rem;
   background-image: url("./flower-removebg-preview.png"),
     url("./flower-removebg-preview-left.png");
   background-position: left 110%, right 110%;
@@ -39,6 +41,7 @@
   width: 50.562rem;
   margin: 0 auto;
   margin-top: 6rem;
+  margin-bottom: 3rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -63,7 +66,9 @@
   flex-direction: column;
   border: 2px solid red;
   width: 25.125rem;
-  height: 16.56rem;
+  height: 50vh;
+  overflow: wrap;
+  padding-bottom: 1rem;
   border-radius: 0.69rem;
   border: 1px solid #fff;
   background-color: #fff;
@@ -91,7 +96,7 @@
   color: #000;
   text-align: center;
   font-family: Sans Serif Collection;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1.875rem;

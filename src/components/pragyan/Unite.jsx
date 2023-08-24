@@ -14,26 +14,28 @@ function Unite() {
             Empowerment through knowledge
           </h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            aperiam nam mollitia, voluptatum distinctio similique!
+            Assembled under one roof, visionary leaders, influential thinkers,
+            and accomplished professionals will impart their wisdom and
+            knowledge, empowering attendees with insights to tackle regional
+            challenges.
           </p>
         </div>
         <div className="unite-secondary-container" id="container-2">
           <h1 className="unite-container-heading">
-            Empowerment through knowledge
+            Driving innovation and collaboration
           </h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            aperiam nam mollitia, voluptatum distinctio similique!
+            Through stimulating discussions on entrepreneurship, technology, and
+            sustainable development, we will inspire young minds to innovate and
+            collaborate for a resilient North East.
           </p>
         </div>
         <div className="unite-secondary-container" id="container-3">
-          <h1 className="unite-container-heading">
-            Empowerment through knowledge
-          </h1>
+          <h1 className="unite-container-heading">Cultural Extravaganza</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            aperiam nam mollitia, voluptatum distinctio similique!
+            Amidst the serious discourse, participants will get an opportunity
+            to revel in the vibrant cultural heritage of the North East,
+            showcasing its art, dance, and culinary delights.
           </p>
         </div>
       </div>

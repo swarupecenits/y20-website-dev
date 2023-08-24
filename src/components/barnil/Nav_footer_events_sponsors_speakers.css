@@ -13,11 +13,12 @@ nav {
   justify-content: space-around;
   align-items: center;
   background-color: #ffffff;
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   margin-left: 0;
   margin-right: 0;
+  width: 99%;
   height: 6.6875rem;
   padding: 0.25rem 4.125rem 0.3125rem 3.5625rem;
   background-image: url("./NavBgLeft.svg"), url("./NavBgRight.svg");
@@ -90,10 +91,10 @@ nav .links #brochure:hover {
   transition-duration: 0.5s;
 }
 #mobile-nav {
-  position: sticky;
+  position: fixed;
   left: 50%;
   z-index: 3;
-  top: -2rem;
+  top: 5rem;
   width: 50vw;
   visibility: hidden;
 }
@@ -150,6 +151,8 @@ nav .links #brochure:hover {
 }
 
 .events {
+  position: relative;
+  top: 35rem;
   text-align: center;
 }
 .events .green-filter {
@@ -179,6 +182,8 @@ nav .links #brochure:hover {
   margin-right: auto;
 }
 .sponsors {
+  position: relative;
+  top: 40rem;
   text-align: center;
   margin-top: 2rem;
 }
@@ -275,6 +280,8 @@ nav .links #brochure:hover {
   transition-duration: 0.5s;
 }
 .speakers {
+  position: relative;
+  top: 40rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -344,6 +351,8 @@ nav .links #brochure:hover {
   flex-wrap: wrap;
 }
 footer {
+  position: relative;
+  top: 40rem;
   font-family: Plus Jakarta Sans;
   background-color: #e3e3e48c;
   background-image: url("./footer-bg-left.svg"), url("./footer-bg-right.svg");
@@ -401,8 +410,11 @@ footer .part1 .right .social-media-cont img {
   }
   #hamburger {
     visibility: visible;
-    position: absolute;
-    top: -6.2rem;
+    position: fixed;
+    top: 1rem;
+    left: 80vw;
+    margin: 0 auto;
+    z-index: 4;
   }
 }
 @media screen and (max-width: 600px) {

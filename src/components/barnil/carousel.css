@@ -1,4 +1,6 @@
 .carousel {
+  position: relative;
+  top: 5rem;
   margin: 0 auto;
   width: 70%;
   height: 30rem;
@@ -31,59 +33,14 @@
 
 .carousel .slide {
   width: 30rem;
+  height: 30rem;
   transition: ease 1000ms;
-  padding-top: 50%;
-  padding-bottom: 50%;
   text-align: center;
-  background-image: url("./sponsors-img/events_bg.png");
 }
-.carousel .slide .green-filter {
-  background-color: #215e4973;
-  
-}
-.carousel .slide .black-filter {
-  background-color: #00000073;
-}
-.carousel .slide h3,
-h4,
-p {
-  text-align: center;
+.carousel .slide .slider-img {
   margin: 0 auto;
 }
-.carousel .slide h3 {
-  position: relative;
-  top: 0;
-  width: fit-content;
-  margin: 0 auto;
-  transition-duration: 0.5s;
-}
-.carousel .slide:hover h3 {
-  top: -1rem;
-  transition-duration: 0.5s;
-}
-.carousel .slide h4 {
-  position: relative;
-  top: 1rem;
-  width: fit-content;
-  margin: 0 auto;
-  transition-duration: 0.5s;
-}
-.carousel .slide:hover h4 {
-  top: 2rem;
-  transition-duration: 0.5s;
-}
-.carousel .slide p {
-  opacity: 0;
-  position: relative;
-  top: 0.5rem;
-  width: fit-content;
-  margin: 0 auto;
-  transition-duration: 0.5s;
-}
-.carousel .slide:hover p {
-  opacity: 1;
-  transition-duration: 0.5s;
-}
+
 .carousel .row {
   width: 30rem;
   height: 30rem;
