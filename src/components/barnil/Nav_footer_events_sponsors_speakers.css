@@ -404,7 +404,7 @@ footer .part1 .right .social-media-cont img {
 @media screen and (max-width: 1000px){
  nav .links #brochure{
    position:relative;
-   right:1rem;
+   left:-2rem;
    font-size:1.3rem;
  }
 }
