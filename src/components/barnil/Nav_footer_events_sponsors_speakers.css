@@ -216,8 +216,8 @@ nav .links #brochure:hover {
 }
 .sponsors-img img {
   margin: 50px;
-  height: 12.9375rem;
-  width: 12.9375rem;
+  height: 15rem;
+  width: 15rem;
   border: 3px solid transparent;
 }
 
@@ -305,6 +305,8 @@ nav .links #brochure:hover {
   flex-direction: column;
   align-items: center;
   width: 10rem;
+  margin: 3rem;
+  text-align: center;
 }
 .speakers .each-speaker img {
   width: 10rem;
