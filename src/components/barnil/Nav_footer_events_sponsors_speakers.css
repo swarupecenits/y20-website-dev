@@ -71,11 +71,23 @@ nav .links #brochure {
   background-color: #ffffff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: 0px solid transparent;
+  border-width: 3px;
+  border-color: #ffa12d;
   border-radius: 50px;
-  box-shadow: 0 0 10px #6a727e;
+  border-style: solid;
   padding: 0.5rem;
   cursor: pointer;
+  transition-duration: 0.5s;
+}
+nav .links #brochure:hover {
+  border: 3px solid rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+  background: linear-gradient(90deg, #ffa12d 19.04%, #358717 91.43%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.4);
+  transition-duration: 0.5s;
 }
 #mobile-nav {
   position: sticky;
@@ -211,8 +223,6 @@ nav .links #brochure {
   height: 12.9375rem;
   width: 12.9375rem;
   border: 3px solid transparent;
-  border-radius: 12.9375rem;
-  background-color: #65666d;
 }
 
 .events {
