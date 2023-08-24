@@ -286,6 +286,7 @@ nav .links #brochure:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .speakers .primary,
