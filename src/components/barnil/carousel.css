@@ -84,6 +84,9 @@
   }
 }
 @media only screen and (max-width: 375px) {
+  .carousel{
+    width:80%;
+  }
   .carousel .row{
     margin: 0 auto;
     width: 70%;
