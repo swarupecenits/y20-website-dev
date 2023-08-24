@@ -5,6 +5,7 @@ import { useRef, useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { Redirect } from "react-router-dom";
 import NavLogo from "./NavLogo.svg";
+import { BrowserRouter, Link as Link1 } from "react-router-dom";
 function NavBar() {
   const ham = useRef(null);
   const navState = useRef(null);
@@ -45,13 +46,13 @@ function NavBar() {
             SPONSORS
           </Link>
 
-          <button
+          <Link1
             id="brochure"
-            style={{ cursor: "pointer" }}
-            onClick={onButtonClick}
+            target="_blank"
+            to="https://drive.google.com/file/d/1fo8PJ-pyF1_kCsq1COxWNjLXTeQBEu7T/view?usp=drivesdk"
           >
             BROCHURE
-          </button>
+          </Link1>
         </div>
       </nav>
       <div id="mobile-nav">
@@ -70,8 +71,8 @@ function NavBar() {
           </Link>
           <button
             id="brochure-mobile"
-            onClick={onButtonClick}
-            style={{ cursor: "pointer" }}
+            target="_blank"
+            to="https://drive.google.com/file/d/1fo8PJ-pyF1_kCsq1COxWNjLXTeQBEu7T/view?usp=drivesdk"
           >
             BROCHURE
           </button>
