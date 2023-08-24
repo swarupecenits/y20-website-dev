@@ -70,9 +70,10 @@
 }
 /* Media queries for responsive design */
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   .hero {
     justify-content: center;
+    height: 80vh;
   }
   .toptxt {
     font-size: 1.5rem;

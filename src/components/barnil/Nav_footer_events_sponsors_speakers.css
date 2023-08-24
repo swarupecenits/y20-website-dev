@@ -122,6 +122,7 @@ nav .links #brochure:hover {
 }
 #mobile-nav #mobile-links #brochure-mobile {
   text-align: center;
+  z-index: 5;
   font-family: Plus Jakarta Sans;
   border: 0px solid transparent;
   background-color: #ffffff;
@@ -583,5 +584,80 @@ footer .part1 .right .social-media-cont img {
     flex-direction: column;
     margin-top: -0.6rem;
     row-gap: 0.2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .events {
+    positive: relative;
+    top: 45rem;
+  }
+  .events .surrounder img {
+    width: 80vw;
+  }
+  .speakers {
+    position: relative;
+    top: 60rem;
+  }
+  .sponsors {
+    position: relative;
+    top: 55rem;
+  }
+  footer {
+    position: relative;
+    top: 70rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  .events {
+    positive: relative;
+    top: 54rem;
+  }
+  .speakers {
+    position: relative;
+    top: 62rem;
+  }
+  .sponsors {
+    position: relative;
+    top: 57rem;
+  }
+  footer {
+    position: relative;
+    top: 72rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  nav .links {
+    visibility: hidden;
+  }
+  nav #nav-logo {
+    height: 4rem;
+    width: 8rem;
+  }
+  nav .links #brochure {
+    background-color: #ffffff;
+  }
+  #hamburger {
+    visibility: visible;
+    position: fixed;
+    top: 1rem;
+    left: 80vw;
+    margin: 0 auto;
+    z-index: 4;
+  }
+  .events {
+    positive: relative;
+    top: 55rem;
+  }
+  .speakers {
+    position: relative;
+    top: 60rem;
+  }
+  .sponsors {
+    position: relative;
+    top: 60rem;
+  }
+  footer {
+    position: relative;
+    top: 80rem;
   }
 }
