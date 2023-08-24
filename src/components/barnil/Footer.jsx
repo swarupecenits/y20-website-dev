@@ -39,12 +39,13 @@ function Footer() {
               <img src={Fb} />
             </Link>
           </div>
-          <h1>CONTACT US</h1>
-          <p>
-            <h3>PHONE:91XXXXXXXX</h3>
-            <h3>EMAIL: y20@gmail.com</h3>
-          </p>
         </div>
+      </div>
+      <div
+        className="part2"
+        style={{ color: "#000000aa", textAlign: "center", marginTop: "2rem" }}
+      >
+        &#169; Copyright @Y20 Northeast Conclave
       </div>
     </footer>
   );
