@@ -85,6 +85,8 @@
 }
 @media only screen and (max-width: 375px) {
   .carousel{
+    position:relative;
+    left:0.5rem;
     width:80%;
   }
   .carousel .row{
