@@ -22,7 +22,7 @@ function NavBar() {
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "SamplePDF.pdf";
+        alink.download = "BrochurePDF.pdf";
         alink.click();
       });
     });
@@ -68,7 +68,11 @@ function NavBar() {
           <Link to="sponsors" duration={500} smooth={true}>
             SPONSORS
           </Link>
-          <button id="brochure-mobile" style={{ cursor: "pointer" }}>
+          <button
+            id="brochure-mobile"
+            onClick={onButtonClick}
+            style={{ cursor: "pointer" }}
+          >
             BROCHURE
           </button>
         </div>
