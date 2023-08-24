@@ -94,4 +94,7 @@
     width: 80%;
     height: 30rem;
   }
+  .carousel .slide{
+    width:20rem;
+  }
 }
