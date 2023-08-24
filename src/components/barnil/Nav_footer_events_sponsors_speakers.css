@@ -122,15 +122,11 @@ nav .links #brochure:hover {
 #mobile-nav #mobile-links #brochure-mobile {
   text-align: center;
   font-family: Plus Jakarta Sans;
-  font-size: 1.5625rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  letter-spacing: 0.07813rem;
   border: 0px solid transparent;
-  border-radius: 50px;
-  box-shadow: 0 0 10px #6a727e;
-  padding: 0.5rem;
+  background-color: #ffffff;
+  color: #1b2e22;
+  padding: 1rem;
+  border-radius: 1.6rem;
 }
 #hamburger {
   visibility: hidden;

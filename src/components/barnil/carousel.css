@@ -19,7 +19,14 @@
   height: 2rem;
   width: 2rem;
   border: 0px solid transparent;
-  border-radius: 1rem;
+  background-color: transparent;
+  border-radius: 2rem;
+  transition-duration: 0.5s;
+}
+.carousel #left,
+#right img {
+  height: 2rem;
+  width: 1rem;
 }
 
 .carousel .slide {
@@ -28,6 +35,14 @@
   padding-top: 50%;
   padding-bottom: 50%;
   text-align: center;
+  background-image: url("./sponsors-img/events_bg.png");
+}
+.carousel .slide .green-filter {
+  background-color: #215e4973;
+  
+}
+.carousel .slide .black-filter {
+  background-color: #00000073;
 }
 .carousel .slide h3,
 h4,
@@ -99,7 +114,6 @@ p {
     margin: 0 auto;
     width: 90%;
     height: 30rem;
-    background-color: rgb(67, 67, 165);
   }
 }
 @media only screen and (max-width: 650px) {
