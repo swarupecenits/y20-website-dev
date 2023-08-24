@@ -4,35 +4,12 @@ import { useState, useEffect } from "react";
 import "./carousel.css";
 import chevronLeft from "./chevron-left-solid.svg";
 import chevronRight from "./chevron-right-solid.svg";
-import events_bg from "./sponsors-img/events_bg.png";
+import Quiz from "./events-bg/quiz.jpg";
+import Hackathon from "./events-bg/hackathon.jpg";
+import Debate from "./events-bg/debate.jpg";
+import Cultural from "./events-bg/cultural.png";
 const Carousel = () => {
-  const events_info = [
-    {
-      name: "EVENT 1",
-      desc: "DESCRIPTION",
-      time: "TIMINGS",
-    },
-    {
-      name: "EVENT 2",
-      desc: "DESCRIPTION",
-      time: "TIMINGS",
-    },
-    {
-      name: "EVENT 3",
-      desc: "DESCRIPTION",
-      time: "TIMINGS",
-    },
-    {
-      name: "EVENT 4",
-      desc: "DESCRIPTION",
-      time: "TIMINGS",
-    },
-    {
-      name: "EVENT 5",
-      desc: "DESCRIPTION",
-      time: "TIMINGS",
-    },
-  ];
+  const events_info = [Quiz, Hackathon, Debate, Cultural];
   const [currIndex, setcurrIndex] = useState(0);
   const handleNext = () => {
     setcurrIndex((prevIndex) =>
@@ -59,7 +36,7 @@ const Carousel = () => {
           <img src={chevronLeft} />
         </button>
         <div className="row">
-          {events_info.map((item, index) => (
+          {/* {events_info.map((item, index) => (
             <div
               className="slide"
               key={index}
@@ -67,15 +44,41 @@ const Carousel = () => {
                 transform: `translateX(${-currIndex * 100}%)`,
               }}
             >
-              <div className="black-filter">
-                <div className="green-filter">
-                  <h3>EVENT: {item.name}</h3>
-                  <p>{item.desc}</p>
-                  <h4>TIMINGS: {item.time}</h4>
-                </div>
-              </div>
+              <img src={item} alt="event" />
             </div>
-          ))}
+          ))} */}
+          <img
+            className="slide"
+            src={Quiz}
+            key={0}
+            style={{
+              transform: `translateX(${-currIndex * 100}%)`,
+            }}
+          />
+          <img
+            className="slide"
+            key={1}
+            src={Hackathon}
+            style={{
+              transform: `translateX(${-currIndex * 100}%)`,
+            }}
+          />
+          <img
+            className="slide"
+            key={2}
+            src={Debate}
+            style={{
+              transform: `translateX(${-currIndex * 100}%)`,
+            }}
+          />
+          <img
+            className="slide"
+            key={3}
+            src={Cultural}
+            style={{
+              transform: `translateX(${-currIndex * 100}%)`,
+            }}
+          />
         </div>
         <button
           style={{ cursor: "pointer" }}
@@ -92,6 +95,7 @@ const Carousel = () => {
             className={
               currIndex === index ? "bubble-active" : "bubble-inactive"
             }
+            onClick={() => handleBubble(index)}
           ></button>
         ))}
       </div>
