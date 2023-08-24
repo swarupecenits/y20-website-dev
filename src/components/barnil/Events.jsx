@@ -95,7 +95,7 @@ const Carousel = () => {
             className={
               currIndex === index ? "bubble-active" : "bubble-inactive"
             }
-            style={{margin:"0.5rem"}}
+            style={{margin:"0.5rem",zIndex:"5"}}
             onClick={() => handleBubble(index)}
           ></button>
         ))}
