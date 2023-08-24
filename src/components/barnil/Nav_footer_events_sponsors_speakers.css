@@ -152,7 +152,7 @@ nav .links #brochure:hover {
 
 .events {
   position: relative;
-  top: 35rem;
+  top: 5rem;
   text-align: center;
 }
 .events .green-filter {
@@ -183,7 +183,7 @@ nav .links #brochure:hover {
 }
 .sponsors {
   position: relative;
-  top: 40rem;
+  top: 5rem;
   text-align: center;
   margin-top: 2rem;
 }
@@ -281,11 +281,12 @@ nav .links #brochure:hover {
 }
 .speakers {
   position: relative;
-  top: 40rem;
+  top: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .speakers .primary,
@@ -352,15 +353,17 @@ nav .links #brochure:hover {
 }
 footer {
   position: relative;
-  top: 40rem;
+  top: 5rem;
   font-family: Plus Jakarta Sans;
   background-color: #e3e3e48c;
   background-image: url("./footer-bg-left.svg"), url("./footer-bg-right.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: left, right;
   background-size: 50%, 50%;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
   font-size: small;
 }
 footer .part1 {
@@ -415,6 +418,22 @@ footer .part1 .right .social-media-cont img {
     left: 80vw;
     margin: 0 auto;
     z-index: 4;
+  }
+  .events {
+    positive: relative;
+    top: 35rem;
+  }
+  .speakers {
+    position: relative;
+    top: 40rem;
+  }
+  .sponsors {
+    position: relative;
+    top: 40rem;
+  }
+  footer {
+    position: relative;
+    top: 40rem;
   }
 }
 @media screen and (max-width: 600px) {
