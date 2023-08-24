@@ -295,10 +295,15 @@ nav .links #brochure:hover {
   margin-bottom: 1rem;
   color: #0a3d1f;
 }
+.speakers .speaker-designation {
+  width: 10rem;
+  font-size: smaller;
+}
 .speakers .each-speaker {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 10rem;
 }
 .speakers .each-speaker img {
   width: 12.5rem;
