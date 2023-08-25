@@ -655,7 +655,7 @@ footer .part1 .right .social-media-cont img {
     visibility: visible;
     position: absolute;
     top: -3rem;
-    left:-2rem;
+    left:0rem;
     margin: 0 auto;
     z-index: 4;
   }
