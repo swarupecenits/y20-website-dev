@@ -404,7 +404,12 @@ footer .part1 .right .social-media-cont img {
   width: 3.5rem;
   height: 2.625rem;
 }
-
+@media screen and (max-height:1400px) and (min-height:1300px){
+  .events{
+    background-color:none;
+    top:8rem;
+  }
+}
 @media screen and (max-width: 1000px){
  nav .links #brochure{
    position:relative;
