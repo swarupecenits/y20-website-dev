@@ -404,7 +404,7 @@ footer .part1 .right .social-media-cont img {
   width: 3.5rem;
   height: 2.625rem;
 }
-@media screen and (max-height:1600px){
+@media screen and (max-height:1500px){
   .events{
     top:10rem;
   }
