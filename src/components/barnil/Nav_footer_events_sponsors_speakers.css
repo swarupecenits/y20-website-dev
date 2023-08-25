@@ -13,7 +13,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   background-color: #ffffff;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   margin-left: 0;
@@ -90,7 +90,7 @@ nav .links #brochure:hover {
   transition-duration: 0.5s;
 }
 #mobile-nav {
-  position: fixed;
+  position: absolute;
   left: 50%;
   z-index: 3;
   top: 5rem;
@@ -420,7 +420,7 @@ footer .part1 .right .social-media-cont img {
   }
   #hamburger {
     visibility: visible;
-    position: fixed;
+    position: absolute;
     top: 1rem;
     left: 80vw;
     margin: 0 auto;
@@ -644,7 +644,7 @@ footer .part1 .right .social-media-cont img {
   }
   #hamburger {
     visibility: visible;
-    position: fixed;
+    position: absolute;
     top: 1rem;
     left: 80vw;
     margin: 0 auto;
