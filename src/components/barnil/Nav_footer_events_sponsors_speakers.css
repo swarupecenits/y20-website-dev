@@ -404,6 +404,11 @@ footer .part1 .right .social-media-cont img {
   width: 3.5rem;
   height: 2.625rem;
 }
+@media screen and (max-height:1080px){
+  .events{
+    top:10rem;
+  }
+}
 @media screen and (max-width: 1000px){
  nav .links #brochure{
    position:relative;
