@@ -163,4 +163,13 @@
     position:relative;
     top:0;
   }
+   #think {
+    position: relative;
+    top: -1rem;
+    margin-bottom: 2rem;
+  }
+  #g20 {
+  position:relative;
+    top:-1rem;
+}
 }
