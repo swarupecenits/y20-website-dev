@@ -73,15 +73,19 @@
 @media (max-width: 810px) {
   .hero {
     position:relative;
-    top:80000rem;
+    top:8rem;
     justify-content: center;
     height: 80vh;
   }
   .toptxt {
-    font-size: 1.5rem;
+    position:relative;
+    top:5rem;
+    font-size: 2rem;
   }
 
   .bottomtxt {
+    position:relative;
+    top:7rem;
     font-size: 1.5rem;
   }
 
