@@ -79,7 +79,7 @@
   }
   .toptxt {
     position:relative;
-    top:5rem;
+    top:5rem
     font-size: 2rem;
   }
 
@@ -152,5 +152,13 @@
   }
   .motto-container img {
     width: 20rem;
+  }
+}
+@media screen and (max-width:375px){
+  .toptxt{
+    top:0;
+  }
+  .bottomtxt{
+    top:0;
   }
 }
