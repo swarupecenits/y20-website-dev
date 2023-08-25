@@ -14,8 +14,8 @@ nav {
   align-items: center;
   background-color: #ffffff;
   position: sticky;
-  width:100%;
-  height:0.8rem;
+  width: 100%;
+  height: 0.8rem;
   top: 0;
   left: -1rem;
   margin-left: 0;
@@ -171,11 +171,13 @@ nav .links #brochure:hover {
   text-align: center;
 }
 .events .surrounder h1 {
+  position: relative;
+  top: 2rem;
   width: 25.6875rem;
   height: 3.8125rem;
   color: #358717;
   font-family: Plus Jakarta Sans;
-  font-size: 2.8125rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -185,7 +187,7 @@ nav .links #brochure:hover {
 }
 .sponsors {
   position: relative;
-  top: 5rem;
+  top: 15rem;
   text-align: center;
   margin-top: 2rem;
 }
@@ -230,9 +232,9 @@ nav .links #brochure:hover {
 
 .events {
   position: relative;
-  top:5rem;
+  top: 15rem;
   text-align: center;
-  margin-top:5rem;
+  margin-top: 5rem;
 }
 
 .events .surrounder img {
@@ -285,7 +287,7 @@ nav .links #brochure:hover {
 }
 .speakers {
   position: relative;
-  top: 5rem;
+  top: 15rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -357,7 +359,7 @@ nav .links #brochure:hover {
 }
 footer {
   position: relative;
-  top: 5rem;
+  top: 15rem;
   font-family: Plus Jakarta Sans;
   background-color: #e3e3e48c;
   background-image: url("./footer-bg-left.svg"), url("./footer-bg-right.svg");
@@ -404,18 +406,13 @@ footer .part1 .right .social-media-cont img {
   width: 3.5rem;
   height: 2.625rem;
 }
-@media screen and (max-height:1330px) and (min-height:1300px){
-  .events{
-    background-color:none;
-    top:8rem;
+
+@media screen and (max-width: 1000px) {
+  nav .links #brochure {
+    position: relative;
+    left: -4rem;
+    font-size: 1.3rem;
   }
-}
-@media screen and (max-width: 1000px){
- nav .links #brochure{
-   position:relative;
-   left:-4rem;
-   font-size:1.3rem;
- }
 }
 @media screen and (max-width: 860px) {
   nav .links {
@@ -607,11 +604,11 @@ footer .part1 .right .social-media-cont img {
     positive: relative;
     top: 45rem;
   }
-    #hamburger{
-      position:relative;
-      top:-6rem;
-      left:1rem;
-    }
+  #hamburger {
+    position: relative;
+    top: -6rem;
+    left: 1rem;
+  }
   .events .surrounder img {
     width: 80vw;
   }
@@ -645,8 +642,8 @@ footer .part1 .right .social-media-cont img {
     position: relative;
     top: 72rem;
   }
-  #hamburger{
-    left:20vw;
+  #hamburger {
+    left: 20vw;
   }
 }
 @media screen and (max-width: 375px) {
@@ -664,7 +661,7 @@ footer .part1 .right .social-media-cont img {
     visibility: visible;
     position: absolute;
     top: -4rem;
-    left:30%;
+    left: 30%;
     margin: 0 auto;
     z-index: 4;
   }
