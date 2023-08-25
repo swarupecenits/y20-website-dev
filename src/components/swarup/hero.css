@@ -156,9 +156,11 @@
 }
 @media screen and (max-width:375px){
   .toptxt{
+    position:relative;
     top:0;
   }
   .bottomtxt{
+    position:relative;
     top:0;
   }
 }
