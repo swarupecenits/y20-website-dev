@@ -73,7 +73,7 @@
 @media (max-width: 810px) {
   .hero {
     position:relative;
-    top:4rem;
+    top:8rem;
     justify-content: center;
     height: 80vh;
   }
