@@ -9,6 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scrollbar-gutter:stable both-edges;
+  scrollbar-width:none;
 }
 * {
   margin: 0;
