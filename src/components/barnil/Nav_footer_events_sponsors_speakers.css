@@ -599,6 +599,10 @@ footer .part1 .right .social-media-cont img {
     positive: relative;
     top: 45rem;
   }
+    #hamburger{
+      position:relative;
+      left:1rem;
+    }
   .events .surrounder img {
     width: 80vw;
   }
@@ -632,6 +636,9 @@ footer .part1 .right .social-media-cont img {
     position: relative;
     top: 72rem;
   }
+  #hamburger{
+    left:1rem;
+  }
 }
 @media screen and (max-width: 375px) {
   nav .links {
@@ -648,7 +655,7 @@ footer .part1 .right .social-media-cont img {
     visibility: visible;
     position: absolute;
     top: 1rem;
-    left: 80vw;
+    left: 1rem;
     margin: 0 auto;
     z-index: 4;
   }
