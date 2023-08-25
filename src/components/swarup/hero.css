@@ -79,13 +79,11 @@
   }
   .toptxt {
     position:relative;
-    top:5rem
     font-size: 2rem;
   }
 
   .bottomtxt {
     position:relative;
-    top:7rem;
     font-size: 1.5rem;
   }
 
