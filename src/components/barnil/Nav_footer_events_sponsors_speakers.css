@@ -138,7 +138,7 @@ nav .links #brochure:hover {
   background-color: transparent;
   visibility: hidden;
   position: absolute;
-  left: 40%;
+  left: 0%;
   top: -5rem;
   z-index: 7;
   padding: 1rem;
