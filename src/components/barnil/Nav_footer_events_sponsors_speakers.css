@@ -407,6 +407,7 @@ footer .part1 .right .social-media-cont img {
 @media screen and (max-height:1500px){
   .events{
     top:10rem;
+    background-color:red;
   }
 }
 @media screen and (max-width: 1000px){
