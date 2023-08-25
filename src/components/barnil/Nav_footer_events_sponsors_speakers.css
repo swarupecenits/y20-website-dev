@@ -637,7 +637,7 @@ footer .part1 .right .social-media-cont img {
     top: 72rem;
   }
   #hamburger{
-    left:1rem;
+    left:20vw;
   }
 }
 @media screen and (max-width: 375px) {
