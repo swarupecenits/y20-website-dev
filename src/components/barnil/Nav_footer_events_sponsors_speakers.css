@@ -654,7 +654,7 @@ footer .part1 .right .social-media-cont img {
   #hamburger {
     visibility: visible;
     position: absolute;
-    top: 1rem;
+    top: -1rem;
     left:-5rem;
     margin: 0 auto;
     z-index: 4;
