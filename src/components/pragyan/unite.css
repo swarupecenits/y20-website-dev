@@ -66,6 +66,7 @@
   flex-direction: column;
   border: 2px solid red;
   width: 25.125rem;
+  height: 25rem;
   overflow: wrap;
   padding-bottom: 1rem;
   border-radius: 0.69rem;
