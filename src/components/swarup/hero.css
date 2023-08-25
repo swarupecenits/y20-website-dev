@@ -72,6 +72,7 @@
 
 @media (max-width: 810px) {
   .hero {
+    top:2rem;
     justify-content: center;
     height: 80vh;
   }
