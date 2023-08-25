@@ -232,6 +232,7 @@ nav .links #brochure:hover {
   position: relative;
   top:5rem;
   text-align: center;
+  margin-top:5rem;
 }
 
 .events .surrounder img {
