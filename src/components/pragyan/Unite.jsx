@@ -14,9 +14,8 @@ function Unite() {
             Empowerment through knowledge
           </h1>
           <p>
-            Assembled under one roof, visionary leaders, influential thinkers,
-            and accomplished professionals will impart their wisdom and
-            knowledge, empowering attendees with insights to tackle regional
+            Visionary leaders, thinkers, and professionals gather to share
+            wisdom, empowering attendees with insights to address regional
             challenges.
           </p>
         </div>
